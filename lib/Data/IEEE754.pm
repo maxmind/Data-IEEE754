@@ -73,3 +73,52 @@ else {
 }
 
 1;
+
+# ABSTRACT: Pack and unpack big-endian IEEE754 floats and doubles
+
+__END__
+
+=pod
+
+=head1 SYNOPSIS
+
+  use Data::IEEE754 qw( pack_double_be unpack_double_be );
+
+  my $packed = pack_double_be(3.14);
+  my $double = unpack_double_be($packed);
+
+=head1 DESCRIPTION
+
+This module provides some simple convenience functions for packing and
+unpacking IEEE 754 floats and doubles.
+
+If you can require Perl 5.10 or greater then this module is pointless. Just
+use the C<< d> >> and C<< f> >> pack formats instead!
+
+Currently this module only implements big-endian order. Patches to add
+little-endian order subroutines are welcome.
+
+=head1 EXPORTS
+
+This module optionally exports the following four functions:
+
+=over 4
+
+=item * pack_float_be($number)
+
+=item * pack_double_be($number)
+
+=item * unpack_float_be($binary)
+
+=item * unpack_double_be($binary)
+
+=back
+
+=head1 CREDITS
+
+The code in this module is more or less copied and pasted from
+L<Data::MessagePack>'s C<Data::MessagePack::PP> module. That module was
+written by Makamaka Hannyaharamitu. The code was then tweaked by Dave Rolsky,
+so blame him for the bugs.
+
+=cut
