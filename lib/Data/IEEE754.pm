@@ -114,6 +114,12 @@ This module optionally exports the following four functions:
 
 =back
 
+=head1 SUPPORT
+
+Please submit bugs to the CPAN RT system at
+http://rt.cpan.org/NoAuth/Bugs.html?Dist=Data-IEEE754 or via email at
+bug-data-ieee754@rt.cpan.org.
+
 =head1 CREDITS
 
 The code in this module is more or less copied and pasted from
