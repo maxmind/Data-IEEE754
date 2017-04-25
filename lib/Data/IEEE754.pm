@@ -4,6 +4,8 @@ use strict;
 use warnings;
 use utf8;
 
+our $VERSION = '0.02';
+
 use Config;
 
 use Exporter qw( import );

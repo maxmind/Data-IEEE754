@@ -1,5 +1,8 @@
 {{$NEXT}}
 
-0.01     2013-06-13
+- Move to MAXMIND's Dist::Zilla bundle.
+
+
+0.01 2013-06-13
 
 - First release upon an unsuspecting world.
