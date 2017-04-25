@@ -1,4 +1,7 @@
 .\#*
+.build
+.tidyall.d
+Build
 \#*\#
 blib*
 cover_db*
@@ -14,3 +17,4 @@ Makefile
 Makefile.old
 pm_to_blib*
 Data-IEEE754-*
+*.sw?
