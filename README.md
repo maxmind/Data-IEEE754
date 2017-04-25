@@ -52,9 +52,10 @@ Bugs may be submitted through [https://github.com/maxmind/Data-IEEE754/issues](h
 
 Dave Rolsky <autarch@urth.org>
 
-# CONTRIBUTOR
+# CONTRIBUTORS
 
-Dave Rolsky <drolsky@maxmind.com>
+- Dave Rolsky <drolsky@maxmind.com>
+- Greg Oschwald <goschwald@maxmind.com>
 
 # COPYRIGHT AND LICENSE
 
