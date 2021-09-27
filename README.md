@@ -4,7 +4,7 @@ Data::IEEE754 - Pack and unpack big-endian IEEE754 floats and doubles
 
 # VERSION
 
-version 0.02
+version 0.03
 
 # SYNOPSIS
 
@@ -36,7 +36,7 @@ This module optionally exports the following four functions:
 # CREDITS
 
 The code in this module is more or less copied and pasted from
-[Data::MessagePack](https://metacpan.org/pod/Data::MessagePack)'s `Data::MessagePack::PP` module. That module was
+[Data::MessagePack](https://metacpan.org/pod/Data%3A%3AMessagePack)'s `Data::MessagePack::PP` module. That module was
 written by Makamaka Hannyaharamitu. The code was then tweaked by Dave Rolsky,
 so blame him for the bugs.
 
@@ -59,7 +59,7 @@ Dave Rolsky <autarch@urth.org>
 
 # COPYRIGHT AND LICENSE
 
-This software is Copyright (c) 2017 by MaxMind, Inc.
+This software is Copyright (c) 2021 by MaxMind, Inc.
 
 This is free software, licensed under:
 
